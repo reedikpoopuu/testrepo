@@ -9,10 +9,12 @@
   switch to the branch with "git checkout" - C:/home/projects/MyRepository/testrepo>git checkout PATCH1-ADDING-HEADERS
   make the changes in the files and if needed check the active directory status with "git status" - C:/home/projects/MyRepository/testrepo>git status
   once the changes are done, add changed files to the staging area with "git add" - C:/home/projects/MyRepository/testrepo>git add index.html
+  (if you are pushing this to remote respository, then use "git config --global user.email "name.last@example.com" and "git config --global user.name "example" to set up the creator)
   commit the changed files with "git commit -m" - C:/home/projects/MyRepository/testrepo>git commit -m "make changes to the header in index.html"
   switch to the main branch with "git checkout" - C:/home/projects/MyRepository/testrepo>git checkout main
   merge the experiment branch to the main repository with "git merge" - C:/home/projects/MyRepository/testrepo>git merge PATCH1-ADDING-HEADERS
   push the changes made in the local main branch to remote repository (e.g. GitHub) with "git push -u origin main" - C:/home/projects/MyRepository/testrepo>git push -u origin main
+  (if you are trying to push it to remote repository from local CLI, then use "git push --set-upstream origin PATCH1-ADDING-HEADERS, where "--set-upstream" is connecting local and remote and "origin" references the original branch)
   check out the changes are made and the branch is up to date with "git status" C:/home/projects/MyRepository/testrepo>git status
   delete the experiment branch with "git branch -d" - C:/home/projects/MyRepository/testrepo>git branch -d PATCH1-ADDING-HEADERS
 ## Create a respository
