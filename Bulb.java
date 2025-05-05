@@ -54,5 +54,4 @@ class SmartBulb implements Switchable, Adjustable, Connectable {
       System.out.println("Brightness is already at minimum");
     }
   }
-
 }
